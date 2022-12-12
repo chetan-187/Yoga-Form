@@ -251,6 +251,9 @@ const Form = () => {
           <div className="m-5">
             <p className="pt-3 text-white">Note : </p>
             <div className="text-left text-white">
+              <p className="font-bold text-red-600">
+                The monthly fee is 500/- Rs INR.
+              </p>
               <p>
                 Participants can enroll any day but you will have to pay for the
                 entire month.
@@ -266,10 +269,10 @@ const Form = () => {
             Proceed to Payment
           </button>
         </form>
-      </div>
+      </div >
 
       {pay && <Payment payload={payload} />}
-    </div>
+    </div >
   );
 };
 
