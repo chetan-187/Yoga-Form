@@ -30,7 +30,7 @@ node server.js
 
 ## Demo
 
-Visit this site at : https://yoga-class-form.netlify.app/
+Visit this site at : https://yoga-form-flexmoney.netlify.app/
 
 - Visit the site
   ![Homepage](./frontend/src/assets/img/emptyform.png)
