@@ -35,7 +35,7 @@ const PaymentModal = (props) => {
     if (!isValidCardNumber) alert("Enter valid credit card number!");
     //send data to server
     await axios
-      .post(`https://yoga-form-backend-z7vi.onrender.com/user`, props.payload)
+      .post(`https://yoga-form.onrender.com/user`, props.payload)
       .then((res) => {
         console.log("Submitted");
         notify("User Registered!", "success");
